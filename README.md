@@ -1,57 +1,50 @@
-# Projeto Portfólio
+# Projeto Portfólio Pessoal
 
-Este repositório contém o projeto do meu site portfólio, desenvolvido inicialmente com **HTML**, seguindo a proposta do bootcamp da **Generation Brasil**.
+<div align="center"> 
+	<img src="https://img.shields.io/badge/HTML-5-orange?style=for-the-badge&logo=html5" alt="HTML Badge" /> 
+	<img src="https://img.shields.io/badge/CSS-3-blue?style=for-the-badge&logo=css3&logoColor=white" alt="CSS Badge" /> 
+	<img src="https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript Badge" /> 
+</div>
 
-O objetivo do projeto é construir a estrutura base de um portfólio pessoal, que será evoluído ao longo das aulas com **CSS** e **JavaScript**.
-
----
+Este é o repositório do meu site portfólio pessoal, desenvolvido com HTML, CSS e JavaScript. O site inclui informações sobre mim, meus projetos, habilidades e formas de contato.
 
 ## Tecnologias Utilizadas
 
-- HTML5
+- **HTML**: Estrutura de conteúdo e marcação do site.
+- **CSS**: Estilização e layout das páginas.
+- **JavaScript**: Funcionalidades e interatividade do site.
 
----
+## Executando Localmente
 
-## Estrutura do Projeto
+Para visualizar o projeto localmente, siga as instruções abaixo:
 
-```text
-portfolio/
-├── index.html
-├── contato.html
-└── assets/
-    └── img/
+### Pré-requisitos
 
-Executando o Projeto Localmente
-Pré-requisitos
+- [Visual Studio Code](https://code.visualstudio.com/) (ou outro editor de sua preferência)
+- Extensão **Live Server** no VSCode
 
-Visual Studio Code ou editor de sua preferência
+### Passos
 
-Extensão Live Server no VS Code
+1. Clone o repositório:
+   ```bash
+      git clone https://github.com/seu-usuario/seu-repositorio.git
+   ```
+2. Abra o projeto no Visual Studio Code:
+   ```bash
+   code seu-repositorio
+   ```
+3. No VSCode, abra um arquivo HTML do projeto (ex: `index.html`).
+4. Clique com o botão direito no editor e selecione **"Open with Live Server"**.
+   - Alternativamente, você pode iniciar o **Live Server** através da barra de status do VSCode.
 
-Passos
+Isso abrirá o site em seu navegador padrão, e você poderá visualizar e testar as alterações em tempo real.
 
-Clone este repositório:
-git clone https://github.com/ThatianaMattos/portfolio.git
+## Deploy
 
-Acesse a pasta do projeto:
+Este site está disponível publicamente através do **GitHub Pages**. Você pode acessar a versão online pelo link abaixo:
 
-cd portfolio
+- [Portfólio Pessoal](https://seu-usuario.github.io/seu-repositorio)
 
+## Contribuindo
 
-Abra o projeto no Visual Studio Code.
-
-Abra o arquivo index.html, clique com o botão direito e selecione Open with Live Server.
-
-O projeto será aberto no navegador e qualquer alteração será atualizada automaticamente.
-
-Status do Projeto
-
-Projeto em desenvolvimento, com foco inicial na estrutura HTML.
-Estilização e interatividade serão adicionadas nas próximas etapas.
-
-Autoria
-
-Feito com 🧡 por Thatiana Mattos
-Bootcamp Generation Brasil
-
-
+Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**.
