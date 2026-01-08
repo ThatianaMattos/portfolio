@@ -2,108 +2,110 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Projeto Portfólio">
-    <meta name="author" content="Generation Brasil">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <link rel="icon" type="image/svg+xml" href="./assets/img/favicon.svg" />
-    <title>Meu Perfil</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfólio de Thatiana Mattos" />
+    <meta name="author" content="Thatiana Mattos" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Portfólio, Full Stack, React, Node" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="./assets/img/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon-32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon-16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="./assets/img/favicon-180.png" />
+    <link rel="manifest" href="./assets/img/manifest.json" />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Thatiana Mattos - Portfólio</title>
 </head>
 
 <body>
-
-    <!-- Cabeçalho da Página (header) -->
     <header>
+        <h1>Thatiana Mattos</h1>
 
-        <!-- Título do cabeçalho -->
-        <h1>Generation Brasil</h1>
-
-        <!-- Menu de Navegação -->
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
-
     </header>
 
-    <!-- Seção Principal da Página (main) -->
     <main>
-
-        <!-- Seção Sobre -->
+        <!-- SOBRE -->
         <section id="about">
+            <h2>Sobre mim</h2>
 
-            <!-- Título da Seção -->
-            <h2>Sobre a Generation Brasil</h2>
+            <article class="about-container">
+                <img src="./assets/img/thatiana.jpg" alt="Foto da Thatiana Mattos" />
 
-            <article>
+                <div class="about-text">
+                    <p>
+                        Olá! Eu sou <strong>Thatiana Mattos</strong>, desenvolvedora full-stack em formação,
+                        em uma fase de reconstrução profissional pautada em aprendizado, foco e consistência.
+                    </p>
 
-                <!-- Foto do Perfil -->
-                <img src="./assets/img/thatiana.jpg" alt="Foto do criador desse conteúdo" />
+                    <p>
+                        Atualmente integro o <strong>Bootcamp Full Stack JavaScript da Generation Brasil</strong>,
+                        onde desenvolvo competências técnicas e comportamentais, trabalhando com lógica,
+                        boas práticas e construção de soluções em equipe.
+                    </p>
 
-                <!-- Texto do Perfil -->
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem odio possimus, dolorem
-                    earum atque itaque quas soluta placeat iure omnis porro cum debitis sequi libero! Deleniti
-                    vitae quis hic cumque. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius
-                    inventore ullam, quia deserunt enim cumque hic officia repudiandae ad ab et sapiente qui
-                    vitae accusamus adipisci provident sit assumenda laboriosam!
-                </p>
-                
+                    <p>
+                        Busco uma oportunidade para iniciar minha atuação profissional na área de tecnologia,
+                        contribuindo com responsabilidade, organização e um olhar atento para qualidade
+                        e evolução constante.
+                    </p>
+
+                </div>
             </article>
-
         </section>
-        
-        <!-- Seção vídeo -->
+
+        <!-- TECNOLOGIAS -->
+        <section id="tech">
+            <h2>Tecnologias que estou aprendendo</h2>
+
+            <ul class="tech-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Git e GitHub</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>MySQL</li>
+            </ul>
+        </section>
+
+        <!-- VÍDEO -->
         <section id="video">
+            <h2>Meu vídeo favorito</h2>
 
-            <!-- Título da Seção -->
-			<h2>Meu vídeo favorito:</h2>
-
-            <!-- Vídeo da Seção -->
-            <figure>
-                <iframe
-                    width="560"
-                    height="315"
-                    src="https://www.youtube.com/embed/Z3_mtwMMuGI?si=F1QiiDYSfsPG3nF0"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                ></iframe>
+            <figure class="video-box">
+                <iframe src="https://www.youtube.com/embed/Z3_mtwMMuGI?si=F1QiiDYSfsPG3nF0" title="YouTube video player"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
             </figure>
-
         </section>
-
     </main>
 
-    <!-- Rodapé da Página (footer) -->
     <footer>
-
-        <!-- Seção de Contato - Redes Sociais-->
         <section>
-
-            <a href="">
-                <img src="assets/img/linkedin.svg" alt="LinkedIn" />
+            <a href="https://www.linkedin.com/in/thatiana-mattos/" target="_blank" rel="noopener">
+                <img src="./assets/img/linkedin.svg" alt="LinkedIn" />
             </a>
 
-            <a href="">
-                <img src="assets/img/github.svg" alt="Github" />
+            <a href="https://github.com/ThatianaMattos" target="_blank" rel="noopener">
+                <img src="./assets/img/github.svg" alt="GitHub" />
             </a>
 
-            <a href="">
-                <img src="assets/img/instagram.svg" alt="Instagram" />
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener">
+                <img src="./assets/img/instagram.svg" alt="Instagram" />
             </a>
-
         </section>
 
-		<h3>
-			Feito com 🧡 por Thatiana Mattos - 2026
-		</h3>
-
+        <h3>Feito com 🧡 por Thatiana Mattos - 2026</h3>
     </footer>
-
 </body>
 
 </html>
